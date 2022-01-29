@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+nav > ul {
+  list-style: none;
+}
+
+header > img {
+  padding-left: 20px;
+  width: 40px;
+  height: 40px;
+}
+
+header {
+  background: rgb(52, 58, 64);
+  height: 40px;
+}
+
+nav ul > li {
+  line-height: 40px;
+  display: inline-block;
+  padding-right: 59px;
+}
+
+header > nav {
+  float: right;
+}
+
+.aboutSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #be3144;
+  background-color: #000;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+.aboutSection > h1 {
+  font-size: 10rem;
+  line-height: 500px;
+  color: white;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}
+
+.aboutSection > p {
+  font-style: italic;
+}
+.midSection h3 {
+    margin: 50px;
+    text-align: center;
+
+    font-size: 2rem;
+}
+.viewWork {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.viewWork > a > img {
+    margin: 10px 0;
+  width: 250px;
+  height: 100%;
+
+  background: crimson;
+  border-radius: 8px;
+}
+
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    font-size: 3rem;
+    height: 180px
+  }
+
+  .contact-section-header {
+      color: white;
+  }
+
+  .contact-section-header h2 {
+      margin-top: 20px;
+      font-size: 2rem;
+  }
+
+  .contact-links a {
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+  }
+  
+  
